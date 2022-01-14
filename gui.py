@@ -2,6 +2,7 @@ from tkinter import *
 from tkinter import filedialog, messagebox
 
 from gold import Gold
+from diamond import Diamond
 from utils.insert_default_value import InsertDefault
 from utils.src import Source
 
@@ -117,14 +118,14 @@ class Gui():
             110.5, 105.0,
             image = self.entry1_img)
 
-        self.entry_product_img = Entry(
+        self.entry1 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_product_img.place(
+        self.entry1.place(
             x = 59.0, y = 90,
             width = 103.0,
             height = 28)
@@ -135,14 +136,14 @@ class Gui():
             233.5, 105.0,
             image = self.entry2_img)
 
-        self.entry_qr_img = Entry(
+        self.entry2 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_qr_img.place(
+        self.entry2.place(
             x = 182.0, y = 90,
             width = 103.0,
             height = 28)
@@ -153,69 +154,69 @@ class Gui():
             110.5, 172.0,
             image = self.entry3_img)
 
-        self.entry_jewellery_name = Entry(
+        self.entry3 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_jewellery_name.place(
+        self.entry3.place(
             x = 59.0, y = 157,
             width = 103.0,
             height = 28)
 
 
         # ------------------------------------------- adress entry ---------------------------------------------------------
-        self.adress_img = PhotoImage(file = f"assets/img_textBox4.png")
-        self.adress_bg = self.canvas.create_image(
+        self.entry4_img = PhotoImage(file = f"assets/img_textBox4.png")
+        self.entry4_bg = self.canvas.create_image(
             233.5, 172.0,
-            image = self.adress_img)
+            image = self.entry4_img)
 
-        self.entry_adress = Entry(
+        self.entry4 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_adress.place(
+        self.entry4.place(
             x = 182.0, y = 157,
             width = 103.0,
             height = 28)
 
         # ----------------------------------------- customer name entry ----------------------------------------------------
-        self.entry_customer_name_img = PhotoImage(file = f"assets/img_textBox5.png")
-        self.entry_customer_name_bg = self.canvas.create_image(
+        self.entry5_img = PhotoImage(file = f"assets/img_textBox5.png")
+        self.entry5_bg = self.canvas.create_image(
             172.0, 239.0,
-            image = self.entry_customer_name_img)
+            image = self.entry5_img)
 
-        self.entry_customer_name = Entry(
+        self.entry5 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_customer_name.place(
+        self.entry5.place(
             x = 59.0, y = 224,
             width = 226.0,
             height = 28)
 
         # ---------------------------------------------- date entry ---------------------------------------------------------
-        self.entry_date_img = PhotoImage(file = f"assets/img_textBox6.png")
-        self.entry_date_bg = self.canvas.create_image(
+        self.entry6_img = PhotoImage(file = f"assets/img_textBox6.png")
+        self.entry6_bg = self.canvas.create_image(
             110.5, 306.0,
-            image = self.entry_date_img)
+            image = self.entry6_img)
 
-        self.entry_date = Entry(
+        self.entry6 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_date.place(
+        self.entry6.place(
             x = 59.0, y = 291,
             width = 103.0,
             height = 28)
@@ -226,14 +227,14 @@ class Gui():
             233.5, 306.0,
             image = self.entry7_img)
 
-        self.entry_product_name = Entry(
+        self.entry7 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_product_name.place(
+        self.entry7.place(
             x = 182.0, y = 291,
             width = 103.0,
             height = 28)
@@ -245,14 +246,14 @@ class Gui():
             110.5, 373.0,
             image = self.entry8_img)
 
-        self.entry_product_weight = Entry(
+        self.entry8 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_product_weight.place(
+        self.entry8.place(
             x = 59.0, y = 358,
             width = 103.0,
             height = 28)
@@ -263,14 +264,14 @@ class Gui():
             233.5, 373.0,
             image = self.entry9_img)
 
-        self.entry_product_karate = Entry(
+        self.entry9 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_product_karate.place(
+        self.entry9.place(
             x = 182.0, y = 358,
             width = 103.0,
             height = 28)
@@ -281,14 +282,14 @@ class Gui():
             84.5, 471.0,
             image = self.entry10_img)
 
-        self.entry_gold_value = Entry(
+        self.entry10 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_gold_value.place(
+        self.entry10.place(
             x = 59.0, y = 456,
             width = 51.0,
             height = 28)
@@ -299,14 +300,14 @@ class Gui():
             159.5, 471.0,
             image = self.entry11_img)
 
-        self.entry_silver_value = Entry(
+        self.entry11 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_silver_value.place(
+        self.entry11.place(
             x = 134.0, y = 456,
             width = 51.0,
             height = 28)
@@ -317,14 +318,14 @@ class Gui():
             234.5, 471.0,
             image = self.entry12_img)
 
-        self.entry_coper_value = Entry(
+        self.entry12 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_coper_value.place(
+        self.entry12.place(
             x = 209.0, y = 456,
             width = 51.0,
             height = 28)
@@ -335,14 +336,14 @@ class Gui():
             309.5, 471.0,
             image = self.entry13_img)
 
-        self.entry_other_value = Entry(
+        self.entry13 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_other_value.place(
+        self.entry13.place(
             x = 284.0, y = 456,
             width = 51.0,
             height = 28)
@@ -353,14 +354,14 @@ class Gui():
             84.5, 540.0,
             image = self.entry14_img)
 
-        self.entry_color = Entry(
+        self.entry14 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_color.place(
+        self.entry14.place(
             x = 59.0, y = 525,
             width = 51.0,
             height = 28)
@@ -371,14 +372,14 @@ class Gui():
             159.5, 540.0,
             image = self.entry15_img)
 
-        self.entry_clarity = Entry(
+        self.entry15 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_clarity.place(
+        self.entry15.place(
             x = 134.0, y = 525,
             width = 51.0,
             height = 28)
@@ -389,14 +390,14 @@ class Gui():
             234.5, 540.0,
             image = self.entry16_img)
 
-        self.entry_cut = Entry(
+        self.entry16 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_cut.place(
+        self.entry16.place(
             x = 209.0, y = 525,
             width = 51.0,
             height = 28)
@@ -407,14 +408,14 @@ class Gui():
             309.5, 540.0,
             image = self.entry17_img)
 
-        self.entry_finish = Entry(
+        self.entry17 = Entry(
             bd = 0,
             bg = Source().COLOR_DARK,
             fg = Source().COLOR_WHITE,
             insertbackground = Source().COLOR_WHITE,
             highlightthickness = 0)
 
-        self.entry_finish.place(
+        self.entry17.place(
             x = 284.0, y = 525,
             width = 51.0,
             height = 28)
@@ -668,7 +669,7 @@ class ButtonCommand(Gui):
     # set the path to the entry
     def open_product_image(self):
         path = filedialog.askopenfilename()
-        self.entry_product_img.insert(END, path)
+        self.entry1.insert(END, path)
         print(path)
 
     def open_qr_image(self):
@@ -679,9 +680,10 @@ class ButtonCommand(Gui):
         gold.set_value()
         gold.print_card()
 
-
     def print_diamond_card(self):
-        pass
+        diamond = Diamond(self)
+        diamond.set_value()
+        diamond.print_card()
 
     def about(self):
         messagebox.showinfo("Card Printing Designer","- Created By Rupam Seal\n- Version 1.0.1")
