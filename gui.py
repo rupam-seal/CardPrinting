@@ -36,10 +36,6 @@ class Gui():
         gold_state = EntryStates("normal", "disabled", Source().COLOR_DARK)
         gold_state.state(self)
 
-
-        # mainLoop
-        self.run()
-
     # inserting background to the window
     def background(self):
         self.canvas = Canvas(
@@ -637,11 +633,6 @@ class Gui():
             x = 904, y = 34,
             width = 54,
             height = 19)
-
-    # tkinter mainloop and window size
-    def run(self):
-        self.window.resizable(False, False)
-        self.window.mainloop()
 
 '''
     ButtonCommand: [all the onClick function of tkinter buttons]
