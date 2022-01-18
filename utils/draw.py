@@ -26,7 +26,7 @@ class Draw:
         - get the text from tkinter entry
         - paste the text on default background image
         - text has to be center of default background image
-    method: user can pass
+    method: user can pass parameters
                 x: [text x axis location]
                 y: [text y axis location]
                 case = [case of the text "u" or "l"]
@@ -39,7 +39,7 @@ class Draw:
 
         title_text = self.entry.get()
 
-        # : if user pass "u", text will apear uppercase
+        # : if users param is "u", text will apear uppercase
         # : otherwise text will apear as default
 
         # : this validatition is given because if user
