@@ -40,7 +40,7 @@ Start the server
 
 Enter value
 
-![](saved/card.png)
+![](Prototype/card.png)
 
 
 ## License
