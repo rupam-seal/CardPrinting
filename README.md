@@ -38,6 +38,10 @@ Start the server
 
 ## Demo
 
+Enter value
+
+![alt text] (https://github.com/rupam-seal/CardPrinting/blob/master/Prototype/card.png)
+
 
 ## License
 
