@@ -40,7 +40,7 @@ Start the server
 
 Enter value
 
-![alt text] (https://github.com/rupam-seal/CardPrinting/blob/master/Prototype/card.png?raw=true)
+![plot](./Prototype/card.png)
 
 
 ## License
