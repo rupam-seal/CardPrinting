@@ -40,7 +40,7 @@ Start the server
 
 Enter value
 
-![alt text](CardPrinting/Prototype/card.png)
+![](saved/card.png)
 
 
 ## License
