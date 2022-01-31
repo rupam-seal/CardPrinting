@@ -2,6 +2,11 @@
 # Card Printing
 
 This software reduce hallmarking card generating process from 16 minutes to less than 4 minutes
+
+## Used By
+
+This software is used by the 30+ hallmarking center
+
 ## Tech Stack
 
 **Language:** Python
@@ -37,6 +42,15 @@ Start the server
 
 
 ## Demo
+
+Enter value
+
+![demo1](https://user-images.githubusercontent.com/104382853/208679881-35a1e62d-72dc-4b8d-b6c5-c0ffb1d19636.png)
+
+click on bottom gold button
+it will generate printable image
+
+![demo2](https://user-images.githubusercontent.com/104382853/208680107-73cd2d85-ec0e-46c7-a8c8-b14793349d96.png)
 
 
 ## License
