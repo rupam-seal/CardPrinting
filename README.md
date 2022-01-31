@@ -2,6 +2,11 @@
 # Card Printing
 
 This software reduce hallmarking card generating process from 16 minutes to less than 4 minutes
+
+## Used By
+
+This software is used by the 30+ hallmarking center
+
 ## Tech Stack
 
 **Language:** Python
