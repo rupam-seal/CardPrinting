@@ -40,7 +40,12 @@ Start the server
 
 Enter value
 
-![](Prototype/card.png)
+![demo1](https://user-images.githubusercontent.com/104382853/208679881-35a1e62d-72dc-4b8d-b6c5-c0ffb1d19636.png)
+
+click on bottom gold button
+it will generate printable image
+
+![demo2](https://user-images.githubusercontent.com/104382853/208680107-73cd2d85-ec0e-46c7-a8c8-b14793349d96.png)
 
 
 ## License
